@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		01E0220C2173D53000B0C903 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E0220B2173D53000B0C903 /* AppDelegate.swift */; };
-		01E0220E2173D53000B0C903 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E0220D2173D53000B0C903 /* ViewController.swift */; };
+		01E0220E2173D53000B0C903 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E0220D2173D53000B0C903 /* MainVC.swift */; };
 		01E022112173D53000B0C903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E0220F2173D53000B0C903 /* Main.storyboard */; };
 		01E022132173D53000B0C903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E022122173D53000B0C903 /* Assets.xcassets */; };
 		01E022162173D53000B0C903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E022142173D53000B0C903 /* LaunchScreen.storyboard */; };
+		01E022212173DE0700B0C903 /* CurrenyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E022202173DE0700B0C903 /* CurrenyTxtField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01E022082173D53000B0C903 /* Window-Shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Window-Shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E0220B2173D53000B0C903 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		01E0220D2173D53000B0C903 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01E0220D2173D53000B0C903 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		01E022102173D53000B0C903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01E022122173D53000B0C903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01E022152173D53000B0C903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01E022172173D53000B0C903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E022202173DE0700B0C903 /* CurrenyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenyTxtField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		01E0220A2173D53000B0C903 /* Window-Shopper */ = {
 			isa = PBXGroup;
 			children = (
+				01E0221F2173DDC300B0C903 /* View */,
+				01E0221E2173DBEE00B0C903 /* Controller */,
 				01E0220B2173D53000B0C903 /* AppDelegate.swift */,
-				01E0220D2173D53000B0C903 /* ViewController.swift */,
 				01E0220F2173D53000B0C903 /* Main.storyboard */,
 				01E022122173D53000B0C903 /* Assets.xcassets */,
 				01E022142173D53000B0C903 /* LaunchScreen.storyboard */,
 				01E022172173D53000B0C903 /* Info.plist */,
 			);
 			path = "Window-Shopper";
+			sourceTree = "<group>";
+		};
+		01E0221E2173DBEE00B0C903 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				01E0220D2173D53000B0C903 /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		01E0221F2173DDC300B0C903 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				01E022202173DE0700B0C903 /* CurrenyTxtField.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01E0220E2173D53000B0C903 /* ViewController.swift in Sources */,
+				01E0220E2173D53000B0C903 /* MainVC.swift in Sources */,
 				01E0220C2173D53000B0C903 /* AppDelegate.swift in Sources */,
+				01E022212173DE0700B0C903 /* CurrenyTxtField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
